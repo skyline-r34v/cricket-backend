@@ -7,6 +7,7 @@ const EmailPassAuth = () => {
   const [Email, setEmail] = useState('');
   const [Password, setPassword] = useState('');
   const [Phone, setPhone] = useState(undefined);
+  
 
   const CreateUser = async () => {
     auth()
